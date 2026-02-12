@@ -14,6 +14,7 @@ HTML
 CSS
 JavaScript
 GitHub Pages (for deployment)
+password 1234
 
 🌐 Live Demo
 👉 https://parulsingh7988-dotcom.github.io/emergency-app/
