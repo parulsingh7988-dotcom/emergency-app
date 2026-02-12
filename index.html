@@ -4,6 +4,23 @@
     <title>Login Page</title>
     <link rel="stylesheet" href="css/style.css">
 </head>
+<script>
+function loginUser() {
+    const username = document.getElementById("username").value;
+    const password = document.getElementById("password").value;
+
+    // Demo credentials
+    const correctUsername = "admin";
+    const correctPassword = "1234";
+
+    if (username === correctUsername && password === correctPassword) {
+        alert("Login Successful!");
+        window.location.href = "home.html";  // next page
+    } else {
+        alert("Invalid Username or Password");
+    }
+}
+</script>
 <body>
 
     <h2>Login</h2>
